@@ -1,15 +1,25 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Inter, Quicksand, ADLaM_Display, Dancing_Script } from 'next/font/google'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const quicksand = Quicksand({
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+const adLaM = ADLaM_Display({
+  subsets: ['latin'],
+  weight: '400',
+});
+
+const dancing = Dancing_Script({
+  subsets: ['latin'],
+  weight: '400',
 });
 
 export const metadata: Metadata = {
@@ -23,10 +33,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={inter.className}> 
+      <body>
+        {/* 自定义的 header 组件 */}
+        {/* <Header/> */}
         {children}
       </body>
     </html>
