@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Quicksand, ADLaM_Display, Dancing_Script } from 'next/font/google'
+// import { Inter, Quicksand, ADLaM_Display, Dancing_Script } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
 const inter = Inter({
   subsets: ['latin'],
