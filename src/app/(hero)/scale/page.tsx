@@ -1,4 +1,3 @@
-import Image from "next/image";
 // import homeSrc from '@/../public/1.jpeg';
 import homeSrc from '@/../public/4.jpeg';
 import Hero from '@/app/components/hero';

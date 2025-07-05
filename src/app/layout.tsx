@@ -7,20 +7,20 @@ const inter = Inter({
   display: 'swap',
 });
 
-const quicksand = Quicksand({
-  subsets: ['latin'],
-  display: 'swap',
-});
+// const quicksand = Quicksand({
+//   subsets: ['latin'],
+//   display: 'swap',
+// });
 
-const adLaM = ADLaM_Display({
-  subsets: ['latin'],
-  weight: '400',
-});
+// const adLaM = ADLaM_Display({
+//   subsets: ['latin'],
+//   weight: '400',
+// });
 
-const dancing = Dancing_Script({
-  subsets: ['latin'],
-  weight: '400',
-});
+// const dancing = Dancing_Script({
+//   subsets: ['latin'],
+//   weight: '400',
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
